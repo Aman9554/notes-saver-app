@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// Local development ke liye backend URL
-const API_URL = 'http://localhost:5000/api/notes';
+const API_URL = 'https://notes-saver-app-bcwa.onrender.com/api/notes';
 
 export const fetchNotes = async () => {
   const response = await axios.get(API_URL);
